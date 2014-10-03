@@ -1,6 +1,6 @@
 import unittest
 
-from skills1 import *
+from skills_lambda import *
 
 class testing(unittest.TestCase):
 
@@ -36,7 +36,7 @@ class testing(unittest.TestCase):
         self.assertEqual(mult_numbers(self.number_list), -3115929600)
     
     def test_join_strings(self):
-        self.assertEqual(join_strings(self.word_list), " What about the Spam sausage spam spam bacon spam tomato and spam")
+        self.assertEqual(join_strings(self.word_list), "What about the Spam sausage spam spam bacon spam tomato and spam")
     
     def test_average(self):
         self.assertEqual(average(self.number_list), 11.8)
